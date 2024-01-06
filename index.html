@@ -109,10 +109,16 @@ body, html {
 <div class="w3-container w3-light-grey" style="padding:128px 16px">
   <div class="w3-row-padding">
     <div class="w3-col m6">
-      <h3>Get to know me. </h3>
+      <h3>Get to know me. </h3><br>
+	  <script src="https://www.biblegateway.com/votd/votd.write.callback.js"></script>
+		<script src="https://www.biblegateway.com/votd/get/?format=json&version=KJV&callback=BG.votdWriteCallback"></script>
+		<!-- alternative for no javascript -->
+	  <noscript>
+		<iframe framespacing="0" frameborder="no" src="https://www.biblegateway.com/votd/get/?format=html&version=KJV">View Verse of the Day</iframe>
+	  </noscript>
       <p><br></p>
-      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View My Work</a></p><br>
-	  <p><a href="#code" class="w3-button w3-black"><i class="fa fa-th"> </i> View My Code</a></p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View My Work</a>&nbsp;&nbsp;&nbsp;
+	  <a href="#code" class="w3-button w3-black"><i class="fa fa-th"> </i> View My Code</a></p>
     </div>
     <div class="w3-col m6">
       <img class="w3-image w3-round-large" src="/assessts/img/DSC01877.JPG">
@@ -203,7 +209,17 @@ body, html {
        <a href="https://tcaviness.github.io/Environmet" class="w3-hover-text-blue">Temputure and Humidity Project</a><br>
 	    <a href="https://tcaviness.github.io/robotics" class="w3-hover-text-blue">Robotics Project</a><br>
       <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>ESP8266</p>
+	   
       <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Python</p>
+		<a href="https//tcaviness.github.io/TTS" class="w3-hover-text-blue">TTS Bible Verse Reader</a><br>
+		&nbsp;&nbsp;&nbsp;<audio controls>
+		<source src="/assessts/file/" type="audio/mpeg">
+		Your browser does not support the audio element.
+		</audio> <br>
+		&nbsp;&nbsp;&nbsp;<audio controls>
+		<source src="/assessts/file/" type="audio/mpeg">
+		Your browser does not support the audio element.
+		</audio> 
     </div>
   </div>
 </div>
@@ -214,9 +230,9 @@ body, html {
   <h3 class="w3-center">CONTACT</h3>
   <p class="w3-center w3-large">Lets get in touch. Send Me a message:</p>
   <div style="margin-top:48px">
-    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago, US</p>
-    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
-    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> USA</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone:</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: </p>
     <br>
  <!-- need work -->
     <form action="mailto: terry@gmail.com" target="_blank">
